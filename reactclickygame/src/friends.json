@@ -1,85 +1,141 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png",
+    "name": "Alex",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-alex-portrait.jpg",
     "occupation": "Fry Cook",
     "location": "A Pineapple Under the Sea"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
+    "name": "Dudley",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-dudley-portrait.jpg",
     "occupation": "Restaurant Owner",
     "location": "A Giant Anchor"
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+    "name": "Elena",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-elena-portrait.jpg",
     "occupation": "Cashier",
     "location": "An Easter Island Head"
   },
   {
     "id": 4,
-    "name": "Dexter",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
+    "name": "Ibuki",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-ibuki-portrait.jpg",
     "occupation": "Boy Genius",
     "location": "A Secret Laboratory"
   },
   {
     "id": 5,
-    "name": "Courage",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
+    "name": "Ken Masters",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-ken-portrait.jpg",
     "occupation": "A Cowardly Dog",
     "location": "Nowhere, Kansas"
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
+    "name": "Necro",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-necro-portrait.jpg",
     "occupation": "Student",
     "location": "Bluffington"
   },
   {
     "id": 7,
-    "name": "Bugs Bunny",
-    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
+    "name": "Oro",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-oro-portrait.jpg",
     "occupation": "Looney Toon",
     "location": "A Rabbit Burrow"
   },
   {
     "id": 8,
-    "name": "Johnny Bravo",
-    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
+    "name": "Ryu",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-ryu-portrait.jpg",
     "occupation": "Ladies Man",
     "location": "Aron City"
   },
   {
     "id": 9,
-    "name": "Tommy Pickles",
-    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
+    "name": "Sean Matsuda",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-sean-matsuda-portrait.jpg",
     "occupation": "Adventurer",
     "location": "California"
   },
   {
     "id": 10,
-    "name": "Rocko",
-    "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
+    "name": "Yang Lee",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-yang-portrait.jpg",
     "occupation": "Cashier",
     "location": "O-Town, California"
   },
   {
     "id": 11,
-    "name": "Captain Planet",
-    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
+    "name": "Yun Lee",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-yun-portrait.jpg",
     "occupation": "Superhero",
     "location": "Earth"
   },
   {
     "id": 12,
-    "name": "Ickis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
+    "name": "Gill",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-gill-portrait.jpg",
+    "occupation": "Ahhhh! A Real Monster!",
+    "location": "Under a City Dump"
+  },
+  {
+    "id": 13,
+    "name": "Akuma",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-akuma-portrait.jpg",
+    "occupation": "Ahhhh! A Real Monster!",
+    "location": "Under a City Dump"
+  },
+  {
+    "id": 14,
+    "name": "Hugo Andore",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-hugo-portrait.jpg",
+    "occupation": "Ahhhh! A Real Monster!",
+    "location": "Under a City Dump"
+  },
+  {
+    "id": 15,
+    "name": "Urien",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-urien-portrait.jpg",
+    "occupation": "Ahhhh! A Real Monster!",
+    "location": "Under a City Dump"
+  },
+  {
+    "id": 16,
+    "name": "Chun-Li",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-chun-li-portrait.jpg",
+    "occupation": "Ahhhh! A Real Monster!",
+    "location": "Under a City Dump"
+  },
+  {
+    "id": 17,
+    "name": "Makoto",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-makoto-portrait.jpg",
+    "occupation": "Ahhhh! A Real Monster!",
+    "location": "Under a City Dump"
+  },
+  {
+    "id": 18,
+    "name": "Q",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-q-portrait.jpg",
+    "occupation": "Ahhhh! A Real Monster!",
+    "location": "Under a City Dump"
+  },
+  {
+    "id": 19,
+    "name": "Remy",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-remy-portrait.jpg",
+    "occupation": "Ahhhh! A Real Monster!",
+    "location": "Under a City Dump"
+  },
+  {
+    "id": 20,
+    "name": "Twelve",
+    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-twelve-portrait.jpg",
     "occupation": "Ahhhh! A Real Monster!",
     "location": "Under a City Dump"
   }
