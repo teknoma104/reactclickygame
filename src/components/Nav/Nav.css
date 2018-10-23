@@ -1,4 +1,4 @@
-nav.navbar {
+.navbar {
   margin-bottom: 0;
   color: white;
   min-height: 70px;
@@ -11,4 +11,9 @@ nav.navbar {
   padding: 26px 0;
   width: 33.3%;
   text-align: center;
+}
+
+.navbar ul {
+  width: 100%;
+
 }

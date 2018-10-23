@@ -1,9 +1,10 @@
 import React from "react";
 import "./Footer.css";
+import logo from './logo.svg';
 
 const Footer = () => (
   <footer className="footer">
-    <span>Pupster 2017</span>
+    <span>Made with React! <img src={logo} className="App-logo" alt="logo" /> </span>
   </footer>
 );
 

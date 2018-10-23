@@ -4,10 +4,10 @@ import "./Nav.css";
 const Nav = (props) => (
     <nav className="navbar navbar-dark bg-dark">
         <ul>
-            <li class="brand">
+            <li className="brand">
                 <a href="/">Clicky Game</a>
             </li>
-            <li class="">Click an image to begin!</li>
+            <li className="">Click an image to begin!</li>
             <li>Score: {props.score} | Top Score: {props.topScore}</li>
         </ul>
         {/* <a className="navbar-brand" href="/">

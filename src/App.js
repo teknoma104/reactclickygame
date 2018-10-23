@@ -22,18 +22,20 @@ class App extends Component {
     }
 
     selectTwelve = () => {
-        console.log("button clicked");
+        console.log("selectTwelve function accessed");
+
         let rngNumbers = [];
         let randomCharacters = [];
         let foundTwelve = false;
         const min = 1;
-        const max = friends.length;
+        const max = 20;
 
         if (!this.state.lastPicked) {
             console.log("no character last picked, picking 12 random characters");
+            console.log("confirming this.state.lastPicked:  " + this.state.lastPicked);
 
             do {
-                let rand = min + Math.floor(Math.random() * (max - min));
+                let rand = Math.floor(Math.random() * (max - min) + min );
                 // console.log("random number = " + rand);
 
                 if (rngNumbers.length === 12) {
@@ -52,9 +54,11 @@ class App extends Component {
 
             for (let x = 0; x < rngNumbers.length; x++) {
                 // console.log("iteration #" + x);
-                randomCharacters.push(friends[rngNumbers[x]]);
-            }
 
+                // Subtract one because the ID in friends.json begins with 1-20 although the array counts as 0-19
+                // That way when we loop through rngNumbers[x] to get the character ID we want from friends, their actual array index is 1 less than their ID property
+                randomCharacters.push(friends[rngNumbers[x]-1]);
+            }
 
             this.setState({ currentCharacters: randomCharacters });
 
@@ -67,7 +71,7 @@ class App extends Component {
             console.log(rngNumbers);
 
             do {
-                let rand = min + Math.floor(Math.random() * (max - min));
+                let rand = Math.floor(Math.random() * (max - min) + min);
                 // console.log("random number = " + rand);
 
                 if (rngNumbers.length === 12) {
@@ -86,8 +90,17 @@ class App extends Component {
 
             for (let x = 0; x < rngNumbers.length; x++) {
                 // console.log("iteration #" + x);
-                randomCharacters.push(friends[rngNumbers[x]]);
+                // console.log("testing rngNumbers["+x+"]:  " + rngNumbers[x] );
+                // console.log("testing friends[rngNumbers["+x+"]]:  ");
+                // console.log(friends[rngNumbers[x]-1]);
+
+                // Subtract one because the ID in friends.json begins with 1-20 although the array counts as 0-19
+                // That way when we loop through rngNumbers[x] to get the character ID we want from friends, their actual array index is 1 less than their ID property
+                randomCharacters.push(friends[rngNumbers[x]-1]);
             }
+            
+            console.log("testing randomCharacters");
+            console.log(randomCharacters);
 
 
             this.setState({ currentCharacters: randomCharacters });
@@ -108,10 +121,13 @@ class App extends Component {
         // Update the appropriate state
         console.log("testing id clicked:  " + id);
 
+        // if the clicked id matches the id in state's lastPicked, game is over
         if (id === this.state.lastPicked) {
             console.log("you clicked this character already, game over");
             console.log("resetting state")
 
+            // if current score is higher than top score, replace top score with current score
+            // if not, just reset current score to 0 and reset lastPicked to empty string
             if (this.state.score > this.state.topScore) {
                 console.log("current score is higher than topScore");
                 const newTopScore = this.state.score;
@@ -128,15 +144,14 @@ class App extends Component {
             console.log("congrats you clicked a character you didn't pick in the last click");
             console.log("adding 1 point to current score");
             console.log("testing id clicked again:  " + id);
-            this.setState({ lastPicked: id, score: this.state.score + 1 });
+            
+            console.log("testing state");
+            console.log(this.state);
             console.log("testing lastPicked state:  " + this.state.lastPicked);
+            // return this.setState(({ lastPicked, score }) => ({lastPicked: id, score: this.state.score + 1}));
+            this.setState((state) => { return  {lastPicked: id, score: this.state.score + 1} } );
             this.selectTwelve();
-
         }
-        // const { name, value } = event.target;
-        // this.setState({
-        //     [name]: value
-        // });
 
     };
 
@@ -144,8 +159,11 @@ class App extends Component {
 
     // Map over this.state.friends and render a FriendCard component for each friend object
     render() {
-        // console.log("testing friends");
-        // console.log(friends);
+        console.log("testing friends");
+        console.log(friends);
+        console.log("page refreshed");
+        console.log("test state");
+        console.log(this.state);
         return (
             <div>
                 <Nav
@@ -154,11 +172,6 @@ class App extends Component {
                 />
                 <Title>Friends List</Title>
                 <Wrapper>
-                    {/* <button
-                    onClick={this.selectTwelve}
-                    className="btn btn-primary"
-                >RNG Numbers
-                </button> */}
                     {this.state.currentCharacters.map(character => (
                         <FriendCard
                             removeFriend={this.removeFriend}

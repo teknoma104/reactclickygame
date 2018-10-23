@@ -13,21 +13,10 @@
   /* height: 70%; */
   overflow: hidden;
   text-align: center;
+  justify-content: center;
   background:#6CADDC;
 }
 .card > .img-container > img {
   width: 100%
 }
 
-.card > .remove {
-  color: #ff1744;
-  font-size: 48px;
-  position: absolute;
-  top: -20px;
-  right: 5px;
-  cursor: pointer;
-}
-
-.card > .remove:hover {
-  color: #d50000;
-}
