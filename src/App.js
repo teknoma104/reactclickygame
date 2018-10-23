@@ -107,14 +107,6 @@ class App extends Component {
 
     }
 
-
-    removeFriend = id => {
-        // Filter this.state.friends for friends with an id not equal to the id being removed
-        const friends = this.state.currentCharacters.filter(friend => friend.id !== id);
-        // Set this.state.friends equal to the new friends array
-        this.setState({ friends });
-    };
-
     clickCharacter = id => {
         // Destructure the name and value properties off of event.target
         // Update the appropriate state
@@ -158,8 +150,8 @@ class App extends Component {
 
     // Map over this.state.friends and render a FriendCard component for each friend object
     render() {
-        console.log("testing friends");
-        console.log(friends);
+        // console.log("testing friends");
+        // console.log(friends);
         console.log("page refreshed");
         console.log("test state");
         console.log(this.state);
@@ -176,10 +168,10 @@ class App extends Component {
                 <Wrapper>
                     {this.state.currentCharacters.map(character => (
                         <FriendCard
-                            removeFriend={this.removeFriend}
                             clickCharacter={this.clickCharacter}
                             id={character.id}
                             key={character.id}
+                            name={character.name}
                             image={character.image}
                         />
                     ))}
