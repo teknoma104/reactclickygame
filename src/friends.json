@@ -2,141 +2,101 @@
   {
     "id": 1,
     "name": "Alex",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-alex-portrait.jpg",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "image": "/assets/images/characters/sf3rd-alex-portrait.jpg"
   },
   {
     "id": 2,
     "name": "Dudley",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-dudley-portrait.jpg",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "image": "/assets/images/characters/sf3rd-dudley-portrait.jpg"
   },
   {
     "id": 3,
     "name": "Elena",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-elena-portrait.jpg",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "image": "/assets/images/characters/sf3rd-elena-portrait.jpg"
   },
   {
     "id": 4,
     "name": "Ibuki",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-ibuki-portrait.jpg",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "image": "/assets/images/characters/sf3rd-ibuki-portrait.jpg"
   },
   {
     "id": 5,
     "name": "Ken Masters",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-ken-portrait.jpg",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "image": "/assets/images/characters/sf3rd-ken-portrait.jpg"
   },
   {
     "id": 6,
     "name": "Necro",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-necro-portrait.jpg",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "image": "/assets/images/characters/sf3rd-necro-portrait.jpg"
   },
   {
     "id": 7,
     "name": "Oro",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-oro-portrait.jpg",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "image": "/assets/images/characters/sf3rd-oro-portrait.jpg"
   },
   {
     "id": 8,
     "name": "Ryu",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-ryu-portrait.jpg",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "image": "/assets/images/characters/sf3rd-ryu-portrait.jpg"
   },
   {
     "id": 9,
     "name": "Sean Matsuda",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-sean-matsuda-portrait.jpg",
-    "occupation": "Adventurer",
-    "location": "California"
+    "image": "/assets/images/characters/sf3rd-sean-matsuda-portrait.jpg"
   },
   {
     "id": 10,
     "name": "Yang Lee",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-yang-portrait.jpg",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
+    "image": "/assets/images/characters/sf3rd-yang-portrait.jpg"
   },
   {
     "id": 11,
     "name": "Yun Lee",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-yun-portrait.jpg",
-    "occupation": "Superhero",
-    "location": "Earth"
+    "image": "/assets/images/characters/sf3rd-yun-portrait.jpg"
   },
   {
     "id": 12,
     "name": "Gill",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-gill-portrait.jpg",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "image": "/assets/images/characters/sf3rd-gill-portrait.jpg"
   },
   {
     "id": 13,
     "name": "Akuma",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-akuma-portrait.jpg",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "image": "/assets/images/characters/sf3rd-akuma-portrait.jpg"
   },
   {
     "id": 14,
     "name": "Hugo Andore",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-hugo-portrait.jpg",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "image": "/assets/images/characters/sf3rd-hugo-portrait.jpg"
   },
   {
     "id": 15,
     "name": "Urien",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-urien-portrait.jpg",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "image": "/assets/images/characters/sf3rd-urien-portrait.jpg"
   },
   {
     "id": 16,
     "name": "Chun-Li",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-chun-li-portrait.jpg",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "image": "/assets/images/characters/sf3rd-chun-li-portrait.jpg"
   },
   {
     "id": 17,
     "name": "Makoto",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-makoto-portrait.jpg",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "image": "/assets/images/characters/sf3rd-makoto-portrait.jpg"
   },
   {
     "id": 18,
     "name": "Q",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-q-portrait.jpg",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "image": "/assets/images/characters/sf3rd-q-portrait.jpg"
   },
   {
     "id": 19,
     "name": "Remy",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-remy-portrait.jpg",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "image": "/assets/images/characters/sf3rd-remy-portrait.jpg"
   },
   {
     "id": 20,
     "name": "Twelve",
-    "image": "https://www.creativeuncut.com/gallery-10/art/sf3rd-twelve-portrait.jpg",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "image": "/assets/images/characters/sf3rd-twelve-portrait.jpg"
   }
 ]
