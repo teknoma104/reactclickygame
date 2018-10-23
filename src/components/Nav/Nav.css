@@ -4,6 +4,7 @@
   min-height: 70px;
   position: fixed;
   width: 100%;
+  z-index: 99;
 }
 
 .navbar li {

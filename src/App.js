@@ -2,9 +2,8 @@ import React, { Component } from "react";
 import Nav from "./components/Nav";
 import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
-// import Container from "./components/Container";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Title from "./components/Title";
 import friends from "./friends.json";
 import "./App.css";
 
@@ -35,7 +34,7 @@ class App extends Component {
             console.log("confirming this.state.lastPicked:  " + this.state.lastPicked);
 
             do {
-                let rand = Math.floor(Math.random() * (max - min) + min );
+                let rand = Math.floor(Math.random() * (max - min) + min);
                 // console.log("random number = " + rand);
 
                 if (rngNumbers.length === 12) {
@@ -57,7 +56,7 @@ class App extends Component {
 
                 // Subtract one because the ID in friends.json begins with 1-20 although the array counts as 0-19
                 // That way when we loop through rngNumbers[x] to get the character ID we want from friends, their actual array index is 1 less than their ID property
-                randomCharacters.push(friends[rngNumbers[x]-1]);
+                randomCharacters.push(friends[rngNumbers[x] - 1]);
             }
 
             this.setState({ currentCharacters: randomCharacters });
@@ -96,9 +95,9 @@ class App extends Component {
 
                 // Subtract one because the ID in friends.json begins with 1-20 although the array counts as 0-19
                 // That way when we loop through rngNumbers[x] to get the character ID we want from friends, their actual array index is 1 less than their ID property
-                randomCharacters.push(friends[rngNumbers[x]-1]);
+                randomCharacters.push(friends[rngNumbers[x] - 1]);
             }
-            
+
             console.log("testing randomCharacters");
             console.log(randomCharacters);
 
@@ -144,12 +143,12 @@ class App extends Component {
             console.log("congrats you clicked a character you didn't pick in the last click");
             console.log("adding 1 point to current score");
             console.log("testing id clicked again:  " + id);
-            
+
             console.log("testing state");
             console.log(this.state);
             console.log("testing lastPicked state:  " + this.state.lastPicked);
             // return this.setState(({ lastPicked, score }) => ({lastPicked: id, score: this.state.score + 1}));
-            this.setState((state) => { return  {lastPicked: id, score: this.state.score + 1} } );
+            this.setState((state) => { return { lastPicked: id, score: this.state.score + 1 } });
             this.selectTwelve();
         }
 
@@ -170,7 +169,10 @@ class App extends Component {
                     score={this.state.score}
                     topScore={this.state.topScore}
                 />
-                <Title>Friends List</Title>
+                <Header backgroundImage="/assets/images/SFIII3rdStrike_logo.png">
+                    <h1>React Clicky Game - SFIII 3rd Strike edition!</h1>
+                    <h2>Click on an image to earn points, but don't click the same image twice or it's game over for you! </h2>
+                </Header>
                 <Wrapper>
                     {this.state.currentCharacters.map(character => (
                         <FriendCard

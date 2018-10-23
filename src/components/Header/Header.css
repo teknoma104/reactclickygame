@@ -1,11 +1,11 @@
-.hero {
+.header {
   height: 500px;
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center;
   position: relative;
 }
 
-.hero::after {
+.header::after {
   content: "";
   display: block;
   opacity: .4;
@@ -17,17 +17,17 @@
   background: black;
 }
 
-.hero * {
+.header * {
   position: relative;
   z-index: 2;
 }
 
-.hero h1, .hero h2 {
+.header h1, .header h2 {
   color: white;
 }
 
-.hero h1 {
+.header h1 {
   font-size: 60px;
-  padding-top: 140px;
+  padding-top: 380px;
   margin-top: 0;
 }
